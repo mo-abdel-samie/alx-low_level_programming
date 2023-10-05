@@ -1,0 +1,3 @@
+#!/bin/bash
+touch $CFILE
+gcc $CFILE -o c
