@@ -15,12 +15,12 @@ int main(void)
 		{
 			putchar(sch);
 			putchar(sch1);
-		}
 
-		if (sch1 != '9')
-		{
-			putchar(',');
-			putchar(' ');
+			if (sch1 != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 
