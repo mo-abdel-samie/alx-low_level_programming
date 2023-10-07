@@ -12,11 +12,14 @@ int main(void)
 	for (sch = '0'; sch <= '9'; sch++)
 	{
 		putchar(sch);
-		putchar(',');
-		putchar(' ');
+		if (sch != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
-	putchar(',');
+	putchar('\n');
 
 	return (0);
 }
