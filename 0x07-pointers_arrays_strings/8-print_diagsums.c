@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_diagsums - print the sum the diognals of a square matrix of integer
