@@ -1,7 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
-#include<string.h>
+#include <string.h>
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdio.h>
@@ -11,7 +11,6 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
  */
 typedef struct listint_s
 {
